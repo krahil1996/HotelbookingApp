@@ -1,0 +1,72 @@
+
+/* ================================================CSS FOR LOGIN PAGE================================ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/19257.jpg);/* Change this to your desired background color */
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* ==================================CSS FOR CONTAINER============================================ */
+  .container5 {
+    position: absolute;
+    left: 80px;
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+
+  }
+
+  h2 {
+    color:black;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  /* ========================================CSSS FOR INPUT TYPE ====================================== */
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: calc(100% - 22px);
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .small {
+    font-size: 20px;
+  }
+
+  .small a {
+    color: red;
+    text-decoration: none;
+  }
+
+  /* ==================================CSS ENDS HERE ================================================ */

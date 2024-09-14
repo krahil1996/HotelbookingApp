@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Merriweather:wght@700&family=Noto+Serif:ital,wght@1,600&family=Oswald&family=Playfair+Display:ital,wght@1,400;1,800&family=Poppins:wght@500;600&family=Qwitcher+Grypen:wght@700&display=swap');
+
+
+/* ========================================CSS FOR WELCOME PAGE STARTS HERE================================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ===========================CSS FOR BODY PART================================ */
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+   background-image: url('https://media.istockphoto.com/id/512882668/photo/entering-hotel-room.jpg?s=612x612&w=0&k=20&c=dkStriVIj-19NVWg1AgHdBAtRGndus-sQJiZdo5N6ss=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      }
+
+
+      /* ========================================CSS FOR BODY CONTAINER================================== */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Arial Narrow', Helvetica,;
+    font-size: xx-large;
+    color: #ec0808;
+    font-style: italic;
+    margin-top: 120px;
+   
+}
+
+
+.book{
+    margin-top: 20px;
+   
+}
+
+
+ a{
+   text-decoration: none;
+
+}
+
+/* ============================CSSS FOR BUTTON ==================================== */
+
+.btn-primary{
+    margin-top: 20px;
+    background-color: #ffed9f;
+    font-style: normal;
+    padding: 10px;
+    font-size: large;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+
+.btn-primary:hover{
+    background-color: #3c7aff;
+    color: #fff;
+}
+
+/* ================================================CSS ENDS HERE===================================== */
